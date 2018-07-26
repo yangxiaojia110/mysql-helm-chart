@@ -1,9 +1,9 @@
 ## mysql image version
 ## ref: https://hub.docker.com/r/library/mysql/tags/
 ##
-image: "mysql"
-imageTag: "5.7.14"
-
+image:
+  repository: "mysql"
+  tag: "5.7.14"
 ## Specify password for root user
 ##
 ## Default: random 10 character string
