@@ -1,7 +1,6 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  namespace: mysql
   name: {{ template "mysql.fullname" . }}
   labels:
     app: {{ template "mysql.fullname" . }}
